@@ -1,0 +1,288 @@
+{
+  "nav": {
+    "services": "Services",
+    "work": "Work",
+    "products": "Products",
+    "team": "Team",
+    "contact": "Contact",
+    "cta": "Get a Quote",
+    "menu_open": "Open menu",
+    "menu_close": "Close menu"
+  },
+  "a11y": {
+    "primary_nav": "Primary navigation",
+    "footer_nav": "Footer navigation",
+    "stats": "Statistics",
+    "portfolio_filter": "Filter portfolio",
+    "language": "Language",
+    "cta_banner": "Call to action section",
+    "gallery": "Project images"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "globe": "Website"
+  },
+  "hero": {
+    "title": "Architecting Digital Excellence for Visionary Founders",
+    "subtitle": "We transform ambitious ideas into world-class software. From initial concept to market dominance, we navigate the technical complexity so you can focus on your vision.",
+    "cta_primary": "Launch Your Vision",
+    "cta_secondary": "Explore Our Work",
+    "headline": "Architecting Digital Excellence for Visionary Founders",
+    "trust": "Enterprise-grade delivery without the overhead.",
+    "sub": "We transform ambitious ideas into world-class software. From initial concept to market dominance, we navigate the technical complexity so you can focus on your vision."
+  },
+  "solution_strip": {
+    "headline": "You have the vision. We handle the complexity.",
+    "step1": "Share your ambitious idea",
+    "step2": "We engineer the complete solution",
+    "step3": "You launch a market-ready product"
+  },
+  "stats": {
+    "experience": "Years of elite technical delivery",
+    "delivered": "World-class solutions launched",
+    "countries": "Global markets served"
+  },
+  "home": {
+    "services_title": "Our Domains of Excellence",
+    "services_sub": "End-to-end technical delivery across the modern stack.",
+    "learn_more": "Discover more",
+    "why_title": "The BitZealth Advantage",
+    "lifecycle_preview_title": "Our Proven Methodology",
+    "lifecycle_preview_sub": "A transparent, milestone-driven journey from concept to launch.",
+    "lifecycle_cta": "Explore our process",
+    "featured_title": "Portfolio of Innovation",
+    "featured_sub": "A selection of our most impactful technical triumphs.",
+    "see_all_work": "View Full Showcase",
+    "products_teaser_title": "Pioneering the Future of Digital Products",
+    "products_teaser_sub": "We build sustainable, high-impact software that scales with your ambition.",
+    "products_teaser_cta": "Explore Internal Products",
+    "testimonials_title": "Voice of Our Partners",
+    "cta_banner_title": "Ready to Build Something Extraordinary?",
+    "cta_banner_sub": "No technical expertise required. Your vision, our elite engineering.",
+    "view": "In-depth view"
+  },
+  "value_props": {
+    "1": { "title": "Concept to Reality", "body": "We translate your abstract ideas into robust architectures and beautiful interfaces. We own the entire lifecycle." },
+    "2": { "title": "Elite Engineering", "body": "Every line of code is written with scalability, security, and performance at its core. No compromises." },
+    "3": { "title": "Full-Stack Mastery", "body": "Web, Mobile, AI, and Cloud—we handle the entire technical spectrum under one roof with perfect synergy." },
+    "4": { "title": "Transparent Partnership", "body": "No black boxes. You get real-time visibility into development, regular staging reviews, and clear communication." },
+    "5": { "title": "Predictable Success", "body": "Our structured methodology ensures milestones are hit and timelines are respected. We deliver on our promises." },
+    "6": { "title": "Global Authority", "body": "Trusted by visionary founders across 15+ countries to deliver mission-critical software that defines markets." }
+  },
+  "lifecycle": {
+    "steps": {
+      "1": { "phase": "Discovery", "what": "We conduct deep-dive sessions to crystallize your vision, identify edge cases, and align on core objectives.", "client": "Focus on your goals while we map the technical terrain." },
+      "2": { "phase": "Strategic Roadmap", "what": "A comprehensive blueprint detailing the architecture, tech stack, and milestone-based timeline for your success.", "client": "Review and approve the bridge from idea to execution." },
+      "3": { "phase": "Design & Prototyping", "what": "High-fidelity UI/UX design and interactive prototypes. You experience the product before engineering begins.", "client": "Direct the visual and functional evolution of your product." },
+      "4": { "phase": "Elite Engineering", "what": "Agile development with continuous integration and multi-layered QA. We build for the long-term.", "client": "Live access to staging environments and weekly demos." },
+      "5": { "phase": "Orchestrated Launch", "what": "Domain configuration, SSL, stress-testing, and global deployment. We ensure a flawless market entry.", "client": "The moment your vision becomes a live reality." },
+      "6": { "phase": "Scaling & Evolution", "what": "Post-launch optimization, new feature implementation, and 24/7 monitoring. We grow as you grow.", "client": "Dedicated technical support for your continued dominance." }
+    },
+    "preview": {
+      "1": { "phase": "Discovery", "line": "Crystallizing your vision into a technical blueprint." },
+      "2": { "phase": "Design", "line": "Crafting elite UI/UX that resonates with your users." },
+      "3": { "phase": "Engineering", "line": "Building robust, scalable systems with precision." },
+      "4": { "phase": "Launch", "line": "Strategic deployment for a flawless market entry." }
+    },
+    "columns": { "phase": "Phase", "what": "Our Action", "client": "Your Involvement" }
+  },
+  "services": {
+    "page_title": "Our Domains of Excellence",
+    "page_sub": "Uncompromising Engineering for Modern Ambitions",
+    "bottom_cta": "Not sure which solution satisfies your vision? Let's conduct a discovery session.",
+    "lifecycle_anchor": "process",
+    "items": {
+      "web": {
+        "title": "Elite Web Applications",
+        "summary": "High-performance SaaS, dashboards, and complex digital platforms.",
+        "description": "We engineer production-grade web ecosystems with a focus on reactive design, secure backend architectures, and global scalability.",
+        "inc1": "Advanced Architectural Blueprints",
+        "inc2": "Reactive UI/UX & Robust API Integration",
+        "inc3": "Continuous Deployment & Performance Audits"
+      },
+      "mobile": {
+        "title": "World-Class Mobile Apps",
+        "summary": "Native-caliber iOS & Android experiences that dominate app stores.",
+        "description": "From intuitive gestures to offline-first synchronization, we craft mobile experiences that users love and competitors envy.",
+        "inc1": "High-Fidelity Interaction Design",
+        "inc2": "Cross-Platform Optimization & API Orchestration",
+        "inc3": "App Store Navigation & Lifecycle Support"
+      },
+      "ai": {
+        "title": "Intelligent AI Systems",
+        "summary": "LLM-powered agents and predictive engines grounded in your data.",
+        "description": "We integrate safe, accurate, and scalable Artificial Intelligence that automates complex workflows and unlocks hidden insights.",
+        "inc1": "Data Ingestion & Retrieval Pipelines",
+        "inc2": "Prompt Engineering & Model Fine-Tuning",
+        "inc3": "Safety Guardrails & Interaction Analytics"
+      },
+      "extensions": {
+        "title": "Browser Power-Tools",
+        "summary": "Strategic extensions that enhance user productivity and retention.",
+        "description": "We build Manifest V3 extensions that live seamlessly within the user's workflow, providing instant value and utility.",
+        "inc1": "Secure Permission Architecture",
+        "inc2": "Cross-Browser Sync & Background Processing",
+        "inc3": "Scalable Update & Distribution Strategy"
+      },
+      "automation": {
+        "title": "Strategic Automation",
+        "summary": "Seamlessly connecting your business systems for absolute efficiency.",
+        "description": "We automate manual processes across your entire technical stack, ensuring data consistency and significant time savings.",
+        "inc1": "Workflow Mapping & Failure Analysis",
+        "inc2": "Custom API Orchestration & CRM Integration",
+        "inc3": "Real-time Monitoring & Alerting Systems"
+      }
+    }
+  },
+  "work": {
+    "title": "Case Studies in Innovation",
+    "sub": "A showcase of technical excellence and strategic success.",
+    "filter_all": "All Work",
+    "filter_web": "Web Ecosystems",
+    "filter_mobile": "Mobile Experience",
+    "filter_ai": "AI Systems",
+    "filter_extension": "Extensions",
+    "filter_automation": "Automations",
+    "tagline": "The Vision",
+    "visit_live": "View Live Experience",
+    "related": "Similar Success Stories",
+    "who_built": "The Engineering Core",
+    "problem": "The Challenge",
+    "solution": "Our Strategy",
+    "outcome": "The Result",
+    "tech_stack": "Core Technologies",
+    "gallery": "Visual Showcase",
+    "year": "Timeline",
+    "category": "Domain",
+    "region": "Market",
+    "status": "Deployment Status",
+    "deployed": "Live in Production",
+    "in_progress": "Nearing Launch",
+    "back_to_work": "Back to Showcase"
+  },
+  "products": {
+    "page_title": "Internal Innovations",
+    "page_sub": "Products Engineered for Excellence",
+    "page_hero_line": "We solve our own challenges, then share the solutions with the world.",
+    "pos": {
+      "name": "BitZealth POS",
+      "description": "A streamlined retail engine designed for clarity, speed, and reliable growth.",
+      "audience": "Retailers who demand precision inventory management and a frictionless checkout experience.",
+      "f1": "Keyboard-Optimized Rapid Checkout",
+      "f2": "Real-time Inventory Orchestration",
+      "f3": "Strategic Staff & Permission Management",
+      "f4": "Insight-Driven Sales Intelligence"
+    },
+    "status_coming_soon": "Limited Beta Approaching",
+    "email_placeholder": "you@business.com",
+    "notify_cta": "Secure Early Access",
+    "notify_success": "You've been prioritized for early access. Expect an invitation shortly.",
+    "notify_error": "Connection issue. Please attempt to join again later.",
+    "future_title": "Our Innovation Roadmap",
+    "future": {
+      "inventory": "Predicative Inventory AI",
+      "analytics": "Market Trend Analytics",
+      "payments": "Global Payment Orchestration"
+    },
+    "locked": "Strategic Research",
+    "form_subject": "POS Early Access List"
+  },
+  "team": {
+    "page_title": "The Engineering Core",
+    "intro": "A collective of elite strategists and engineers dedicated to architecting your digital future.",
+    "values_title": "Our Core Philosophy",
+    "v1": "Radical Transparency",
+    "v2": "Unyielding Craft",
+    "v3": "Velocity with Precision",
+    "v4": "Total Accountability",
+    "view_profile": "Explore Profile",
+    "projects_title": "Project Contributions",
+    "empty_projects": "Pioneering new technical frontiers.",
+    "bilal": {
+      "role": "Chief Technical Architect",
+      "bio": "A visionary architect specializing in AI systems and scalable cloud infrastructure. Bilal bridges the gap between complex engineering and strategic business value."
+    },
+    "zain": {
+      "role": "Principal Design Engineer",
+      "bio": "Expert in crafting elite UI/UX and resilient full-stack systems. Zain ensures every digital interaction is intuitive, beautiful, and performant."
+    }
+  },
+  "contact": {
+    "opener": "No technical background required. We speak your language.",
+    "aside_email": "Consultation Inquiry",
+    "aside_location": "Global Presence",
+    "title": "Initiate Connection",
+    "name": "Full Name",
+    "email": "Professional Email",
+    "project_type": "Domain of Interest",
+    "budget": "Investment Range (Optional)",
+    "message": "Describe your ambitious vision",
+    "submit": "Submit Vision",
+    "submitting": "Processing Request...",
+    "success": "Initial connection established. Our team will contact you within 24 hours.",
+    "error": "Submission failed. Please try again or contact us directly via email.",
+    "book": "Schedule Call",
+    "upwork": "Partner via Upwork",
+    "fiverr": "Partner via Fiverr",
+    "project_types": {
+      "web": "Web Application",
+      "mobile": "Mobile Application",
+      "ai": "AI System",
+      "automation": "Automation",
+      "pos": "POS Engine",
+      "extension": "Browser Extension",
+      "unsure": "Strategic Consultation"
+    },
+    "budgets": {
+      "u1k": "Discovery Phase (< $1k)",
+      "1to5": "Growth Phase ($1k – $5k)",
+      "5to20": "Market Entry ($5k – $20k)",
+      "20p": "Enterprise Scaling ($20k+)",
+      "discuss": "Custom Scope Discussion"
+    }
+  },
+  "faq": {
+    "title": "Strategic Insights",
+    "subtitle": "Common questions from visionary founders and enterprise leaders.",
+    "q1": "How do you support non-technical founders?",
+    "a1": "We act as your complete technical arm. We translate your business goals into engineering blueprints, manage the entire development lifecycle, and handle all hosting and security. We speak in outcomes, not jargon.",
+    "q2": "What determines your fixed-price investment?",
+    "a2": "After a thorough discovery session, we provide a transparent, milestone-based proposal. Our pricing reflects the elite engineering and strategic depth we bring to every line of code.",
+    "q3": "How do we ensure our product scales with our growth?",
+    "a3": "Scalability is architected from day one. We use modern, cloud-native tech stacks and follow rigorous engineering standards to ensure your product can handle 10 or 10 million users seamlessly.",
+    "q4": "Can you take over an existing project?",
+    "a4": "Yes. We specialize in project rescues and existing system extensions. We perform a technical audit first to identify immediate optimizations and long-term scaling paths.",
+    "q5": "What is the frequency of project updates?",
+    "a5": "You have constant access to a dedicated project board and staging environment. We hold weekly deep-dive demos and provide daily asynchronous updates for total visibility.",
+    "q6": "Do you offer post-launch technical management?",
+    "a6": "Absolutely. Our partnership continues long after launch. We provide ongoing engineering support, security updates, and strategic feature expansion as your market presence grows.",
+    "q7": "How do you protect our intellectual property?",
+    "a7": "We execute comprehensive NDAs and IP assignment agreements before any technical discussion begins. Your vision and its implementation are fully protected and solely yours."
+  },
+  "testimonials": {
+    "q1": "BitZealth redefined our technical roadmap. Their ability to deliver complex systems with total transparency is unmatched.",
+    "q2": "For a non-technical founder, they were a godsend. They owned the tech so I could own the market.",
+    "q3": "Precision engineering combined with a deep understanding of product-market fit. They are partners, not just vendors."
+  },
+  "footer": {
+    "built_in": "Architected with Pride 🇵🇰",
+    "rights": "BitZealth. All rights reserved."
+  },
+  "not_found": {
+    "title": "Page Beyond Current Horizons",
+    "body": "The digital path you seek has not been architected yet.",
+    "home": "Return to HQ"
+  },
+  "seo": {
+    "home": { "title": "BitZealth — Premier Software Architecture & AI Engineering", "desc": "Transforming visionary ideas into elite digital products. We provide end-to-end software delivery for non-technical founders and ambitious enterprises." },
+    "services": { "title": "Strategic Solutions & Technical Expertise — BitZealth", "desc": "Explore our suites of elite engineering services, from product architecture to mission-critical AI systems." },
+    "work": { "title": "Portfolio of Technical Innovation — BitZealth", "desc": "Discover how we've empowered founders with precision-engineered web, mobile, and AI solutions." },
+    "products": { "title": "Internal Products & Innovation Roadmap — BitZealth", "desc": "Explore our proprietary technical solutions and upcoming software products." },
+    "team": { "title": "The Engineering Core — Meet Our Architects", "desc": "Meet the visionary engineers behind BitZealth. Focused on craft, velocity, and total accountability." },
+    "contact": { "title": "Initiate Your Technical Transformation — BitZealth", "desc": "Contact our consultants today to architect your next digital success. No technical background required." },
+    "notfound": { "title": "404 — Path Not Found — BitZealth", "desc": "This page does not exist. Return to our homepage to explore more." }
+  }
+}

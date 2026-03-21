@@ -1,0 +1,26 @@
+.head {
+  margin-bottom: 1.25rem;
+}
+
+.sub {
+  margin: 0.5rem 0 0;
+  color: rgba(241, 241, 243, 0.72);
+  max-width: 60ch;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.cta {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: center;
+}

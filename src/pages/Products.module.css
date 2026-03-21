@@ -1,0 +1,55 @@
+.hero {
+  margin-bottom: 1.5rem;
+}
+
+.sub {
+  margin: 0.5rem 0 0;
+  color: rgba(241, 241, 243, 0.72);
+  font-size: 1.05rem;
+  max-width: 70ch;
+}
+
+.line {
+  margin: 0.85rem 0 0;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-tertiary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: clamp(1.1rem, 2.4vw, 1.45rem);
+}
+
+.h2 {
+  margin: 2.25rem 0 1rem;
+}
+
+.future {
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media (min-width: 860px) {
+  .future {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.fcard {
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 1rem;
+  background: rgba(10, 10, 15, 0.35);
+  opacity: 0.72;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.ftitle {
+  font-weight: 850;
+  color: rgba(241, 241, 243, 0.85);
+}
+
+.fmeta {
+  color: rgba(241, 241, 243, 0.55);
+  font-size: 0.9rem;
+}

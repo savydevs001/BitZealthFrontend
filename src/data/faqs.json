@@ -1,0 +1,9 @@
+[
+  { "id": "faq-tech", "questionKey": "faq.q1", "answerKey": "faq.a1" },
+  { "id": "faq-cost", "questionKey": "faq.q2", "answerKey": "faq.a2" },
+  { "id": "faq-time", "questionKey": "faq.q3", "answerKey": "faq.a3" },
+  { "id": "faq-existing", "questionKey": "faq.q4", "answerKey": "faq.a4" },
+  { "id": "faq-after", "questionKey": "faq.q5", "answerKey": "faq.a5" },
+  { "id": "faq-nda", "questionKey": "faq.q6", "answerKey": "faq.a6" },
+  { "id": "faq-comm", "questionKey": "faq.q7", "answerKey": "faq.a7" }
+]

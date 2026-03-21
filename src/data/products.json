@@ -1,0 +1,20 @@
+{
+  "pos": {
+    "id": "pos",
+    "nameKey": "products.pos.name",
+    "descriptionKey": "products.pos.description",
+    "audienceKey": "products.pos.audience",
+    "featuresKeys": [
+      "products.pos.f1",
+      "products.pos.f2",
+      "products.pos.f3",
+      "products.pos.f4"
+    ],
+    "status": "coming_soon"
+  },
+  "future": [
+    { "id": "f1", "titleKey": "products.future.inventory", "locked": true },
+    { "id": "f2", "titleKey": "products.future.analytics", "locked": true },
+    { "id": "f3", "titleKey": "products.future.payments", "locked": true }
+  ]
+}

@@ -1,0 +1,31 @@
+.section {
+  padding: clamp(2.5rem, 6vw, 4rem) clamp(1rem, 4vw, 2rem);
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.95), rgba(167, 139, 250, 0.85));
+  border-block: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.inner {
+  max-width: 980px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.h2 {
+  margin: 0 0 0.65rem;
+  color: #fff;
+}
+
+.sub {
+  margin: 0 0 1.25rem;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1.05rem;
+}
+
+.btn {
+  background: rgba(10, 10, 15, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.btn:hover {
+  filter: brightness(1.08);
+}

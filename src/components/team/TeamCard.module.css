@@ -1,0 +1,70 @@
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  padding: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(124, 58, 237, 0.45);
+}
+
+.photoWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  width: 132px;
+  height: 132px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 2px solid rgba(167, 139, 250, 0.35);
+}
+
+.name {
+  margin: 0.25rem 0 0;
+  text-align: center;
+  font-size: 1.15rem;
+}
+
+.role {
+  text-align: center;
+  color: rgba(241, 241, 243, 0.72);
+  font-size: 0.95rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 0.65rem;
+}
+
+.links a {
+  color: rgba(241, 241, 243, 0.75);
+  display: inline-flex;
+}
+
+.links a:hover {
+  color: #fff;
+}
+
+.cta {
+  margin-top: 0.25rem;
+  width: 100%;
+  justify-content: center;
+}

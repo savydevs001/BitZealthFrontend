@@ -1,0 +1,43 @@
+.h2 {
+  margin: 0 0 1.25rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 860px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  border: 1px solid var(--color-border);
+  background: rgba(17, 17, 24, 0.55);
+  border-radius: 16px;
+  padding: 1.05rem;
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(167, 139, 250, 0.28);
+  color: var(--color-tertiary);
+  background: rgba(10, 10, 15, 0.45);
+}
+
+.title {
+  margin: 0.75rem 0 0.35rem;
+  font-size: 1.05rem;
+}
+
+.body {
+  margin: 0;
+  color: rgba(241, 241, 243, 0.72);
+  font-size: 0.95rem;
+}

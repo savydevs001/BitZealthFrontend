@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "bilal-gul",
+    "name": "Muhammad Bilal Gul",
+    "shortName": "Bilal",
+    "roleKey": "team.bilal.role",
+    "photo": "/assets/team/bilal.svg",
+    "bioKey": "team.bilal.bio",
+    "skills": ["React", "Node.js", "Python", "AI Systems"],
+    "linkedin": "https://linkedin.com/in/bilalgul",
+    "github": "https://github.com/bilalgul",
+    "instagram": "https://instagram.com/bilalgul",
+    "facebook": "https://facebook.com/bilalgul",
+    "website": "https://bilalgul.com"
+  },
+  {
+    "slug": "zain-ali",
+    "name": "Zain Ali",
+    "shortName": "Zain",
+    "roleKey": "team.zain.role",
+    "photo": "/assets/team/zain.svg",
+    "bioKey": "team.zain.bio",
+    "skills": ["TypeScript", "UI/UX", "Cloud", "DevOps"],
+    "linkedin": "https://linkedin.com/in/zainali",
+    "github": "https://github.com/zainali",
+    "instagram": "https://instagram.com/zainali",
+    "facebook": "https://facebook.com/zainali",
+    "website": "https://zainali.com"
+  }
+]

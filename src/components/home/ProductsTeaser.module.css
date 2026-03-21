@@ -1,0 +1,23 @@
+.section {
+  background:
+    linear-gradient(180deg, rgba(124, 58, 237, 0.08), rgba(124, 58, 237, 0.04)),
+    radial-gradient(ellipse at 20% 10%, rgba(124, 58, 237, 0.08), transparent 55%),
+    radial-gradient(ellipse at 80% 40%, rgba(6, 182, 212, 0.06), transparent 55%);
+  border-block: 1px solid var(--color-border);
+}
+
+.inner {
+  text-align: center;
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.h2 {
+  margin: 0 0 0.75rem;
+}
+
+.sub {
+  margin: 0 0 1.25rem;
+  color: rgba(241, 241, 243, 0.72);
+  font-size: 1.05rem;
+}

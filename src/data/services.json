@@ -1,0 +1,67 @@
+[
+  {
+    "id": "web-apps",
+    "icon": "Globe",
+    "titleKey": "services.items.web.title",
+    "summaryKey": "services.items.web.summary",
+    "descriptionKey": "services.items.web.description",
+    "inclusionsKeys": [
+      "services.items.web.inc1",
+      "services.items.web.inc2",
+      "services.items.web.inc3"
+    ],
+    "tags": ["React", "Node.js", "PostgreSQL", "REST", "GraphQL"]
+  },
+  {
+    "id": "mobile",
+    "icon": "Smartphone",
+    "titleKey": "services.items.mobile.title",
+    "summaryKey": "services.items.mobile.summary",
+    "descriptionKey": "services.items.mobile.description",
+    "inclusionsKeys": [
+      "services.items.mobile.inc1",
+      "services.items.mobile.inc2",
+      "services.items.mobile.inc3"
+    ],
+    "tags": ["React Native", "Flutter", "iOS", "Android", "Push"]
+  },
+  {
+    "id": "ai",
+    "icon": "Bot",
+    "titleKey": "services.items.ai.title",
+    "summaryKey": "services.items.ai.summary",
+    "descriptionKey": "services.items.ai.description",
+    "inclusionsKeys": [
+      "services.items.ai.inc1",
+      "services.items.ai.inc2",
+      "services.items.ai.inc3"
+    ],
+    "tags": ["OpenAI", "RAG", "Python", "LLM", "Automation"]
+  },
+  {
+    "id": "extensions",
+    "icon": "Puzzle",
+    "titleKey": "services.items.extensions.title",
+    "summaryKey": "services.items.extensions.summary",
+    "descriptionKey": "services.items.extensions.description",
+    "inclusionsKeys": [
+      "services.items.extensions.inc1",
+      "services.items.extensions.inc2",
+      "services.items.extensions.inc3"
+    ],
+    "tags": ["Chrome", "Firefox", "Manifest V3", "JavaScript"]
+  },
+  {
+    "id": "automation",
+    "icon": "Workflow",
+    "titleKey": "services.items.automation.title",
+    "summaryKey": "services.items.automation.summary",
+    "descriptionKey": "services.items.automation.description",
+    "inclusionsKeys": [
+      "services.items.automation.inc1",
+      "services.items.automation.inc2",
+      "services.items.automation.inc3"
+    ],
+    "tags": ["n8n", "APIs", "ETL", "Cron", "Integrations"]
+  }
+]

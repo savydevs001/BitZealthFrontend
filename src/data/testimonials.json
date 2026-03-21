@@ -1,0 +1,26 @@
+[
+  {
+    "id": "t1",
+    "quoteKey": "testimonials.q1",
+    "name": "James M.",
+    "country": "UK",
+    "flag": "🇬🇧",
+    "platform": "Upwork"
+  },
+  {
+    "id": "t2",
+    "quoteKey": "testimonials.q2",
+    "name": "Amadou D.",
+    "country": "Nigeria",
+    "flag": "🇳🇬",
+    "platform": "Fiverr"
+  },
+  {
+    "id": "t3",
+    "quoteKey": "testimonials.q3",
+    "name": "Claire R.",
+    "country": "France",
+    "flag": "🇫🇷",
+    "platform": "Upwork"
+  }
+]

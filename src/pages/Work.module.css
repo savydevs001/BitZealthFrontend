@@ -1,0 +1,36 @@
+.head {
+  margin-bottom: 1.25rem;
+}
+
+.sub {
+  margin: 0.5rem 0 0;
+  color: rgba(241, 241, 243, 0.72);
+  max-width: 70ch;
+}
+
+.grid {
+  margin-top: 1.25rem;
+  display: grid;
+  gap: 1rem;
+  animation: bz-filter-in 0.4s ease;
+}
+
+@media (min-width: 640px) and (max-width: 899px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.cell {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}

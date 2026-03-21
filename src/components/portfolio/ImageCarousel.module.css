@@ -1,0 +1,23 @@
+.wrap {
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--color-surface);
+}
+
+.track {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding: 0.75rem;
+  scroll-snap-type: x mandatory;
+}
+
+.img {
+  flex: 0 0 min(520px, 85vw);
+  width: min(520px, 85vw);
+  border-radius: 12px;
+  scroll-snap-align: start;
+  object-fit: cover;
+  aspect-ratio: 16 / 10;
+}

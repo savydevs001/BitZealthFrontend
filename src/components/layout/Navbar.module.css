@@ -1,0 +1,156 @@
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid transparent;
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    backdrop-filter 0.25s ease;
+}
+
+.scrolled {
+  background: rgba(10, 10, 15, 0.72);
+  backdrop-filter: blur(12px);
+  border-color: var(--color-border);
+}
+
+.inner {
+  max-width: 1120px;
+  margin-inline: auto;
+  padding: 0.85rem clamp(1rem, 4vw, 2rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.brand img {
+  flex-shrink: 0;
+}
+
+.nav {
+  display: none;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+@media (min-width: 960px) {
+  .nav {
+    display: flex;
+  }
+}
+
+.link {
+  color: rgba(241, 241, 243, 0.78);
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding-block: 0.25rem;
+  border-bottom: 2px solid transparent;
+}
+
+.link:hover {
+  color: #fff;
+}
+
+.active {
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.cta {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .cta {
+    display: inline-flex;
+  }
+}
+
+.burger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: #fff;
+}
+
+@media (min-width: 960px) {
+  .burger {
+    display: none;
+  }
+}
+
+.drawer {
+  position: fixed;
+  inset: 0;
+  top: 64px;
+  background: rgba(10, 10, 15, 0.96);
+  transform: translateX(100%);
+  transition: transform 0.28s ease;
+  border-top: 1px solid var(--color-border);
+}
+
+.drawerOpen {
+  transform: translateX(0);
+}
+
+[dir='rtl'] .drawer {
+  transform: translateX(-100%);
+}
+
+[dir='rtl'] .drawerOpen {
+  transform: translateX(0);
+}
+
+@media (min-width: 960px) {
+  .drawer {
+    display: none;
+  }
+}
+
+.drawerInner {
+  max-width: 1120px;
+  margin-inline: auto;
+  padding: 1.25rem clamp(1rem, 4vw, 2rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.drawerLink {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  padding-block: 0.35rem;
+}
+
+.drawerLang {
+  padding-block: 0.5rem;
+}
+
+.drawerCta {
+  margin-top: 0.5rem;
+  width: fit-content;
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "experience",
+    "value": 5,
+    "suffix": "+",
+    "labelKey": "stats.experience"
+  },
+  {
+    "id": "delivered",
+    "value": 30,
+    "suffix": "+",
+    "labelKey": "stats.delivered"
+  },
+  {
+    "id": "countries",
+    "value": 15,
+    "suffix": "+",
+    "labelKey": "stats.countries"
+  }
+]

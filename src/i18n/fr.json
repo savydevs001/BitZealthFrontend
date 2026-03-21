@@ -1,0 +1,282 @@
+{
+  "nav": {
+    "services": "Services",
+    "work": "Réalisations",
+    "products": "Produits",
+    "team": "Équipe",
+    "contact": "Contact",
+    "cta": "Obtenir un devis",
+    "menu_open": "Ouvrir le menu",
+    "menu_close": "Fermer le menu"
+  },
+  "a11y": {
+    "primary_nav": "Navigation principale",
+    "footer_nav": "Navigation pied de page",
+    "stats": "Statistiques",
+    "portfolio_filter": "Filtrer le portfolio",
+    "language": "Langue",
+    "cta_banner": "Section appel à l’action",
+    "gallery": "Images du projet"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "hero": {
+    "headline": "Vous avez l'idée. Nous gérons la tech.",
+    "sub": "Une exécution digne des grandes entreprises, sans lourdeur — de la découverte au déploiement, avec un partenaire unique et responsable.",
+    "cta_primary": "Démarrer un projet",
+    "cta_secondary": "Voir nos réalisations",
+    "trust": "5+ ans de livraison de confiance · 30+ produits livrés · 15+ pays"
+  },
+  "solution_strip": {
+    "headline": "Vous avez l'idée. Nous gérons tout le reste.",
+    "step1": "Partagez simplement votre vision",
+    "step2": "Nous nous occupons de toute la tech",
+    "step3": "Vous obtenez un produit fonctionnel"
+  },
+  "stats": {
+    "experience": "Années de livraison dignes de confiance",
+    "delivered": "Produits et solutions livrés",
+    "countries": "Pays et marchés desservis"
+  },
+  "home": {
+    "services_title": "Ce que nous construisons",
+    "services_sub": "Livraison de bout en bout sur toute la stack.",
+    "learn_more": "En savoir plus",
+    "why_title": "Pourquoi BitZealth",
+    "lifecycle_preview_title": "Comment nous livrons",
+    "lifecycle_preview_sub": "Un processus clair du premier appel au lancement.",
+    "lifecycle_cta": "Voir le processus complet",
+    "featured_title": "Réalisations en vedette",
+    "featured_sub": "Projets récents livrés avec soin.",
+    "see_all_work": "Voir toutes les réalisations",
+    "products_teaser_title": "Plus qu'un service — une entreprise produit en devenir.",
+    "products_teaser_sub": "Nous construisons des logiciels durables, pas des scripts jetables.",
+    "products_teaser_cta": "Découvrir les produits",
+    "testimonials_title": "Ce que disent les clients",
+    "cta_banner_title": "Prêt à construire quelque chose d'important ?",
+    "cta_banner_sub": "Aucune connaissance technique requise. Apportez simplement votre idée.",
+    "view": "Voir"
+  },
+  "value_props": {
+    "1": { "title": "De l'idée au produit", "body": "Vous apportez le concept, nous gérons l'architecture, le design, le code, les tests et le déploiement. Rien ne passe à la trappe." },
+    "2": { "title": "Cycle de vie défini", "body": "Chaque projet suit une feuille de route claire : Découverte → Design → Construction → QA → Lancement → Support. Vous savez toujours où vous en êtes." },
+    "3": { "title": "Livraison de bout en bout", "body": "Apps web, apps mobiles, chatbots IA, extensions navigateur, automatisations — nous couvrons toute la stack sous un même toit." },
+    "4": { "title": "Un seul interlocuteur", "body": "Pas besoin de gérer plusieurs prestataires. Une équipe, une conversation, un partenaire responsable du début à la fin." },
+    "5": { "title": "Livraison prévisible", "body": "Des jalons sur lesquels vous pouvez vous appuyer — communication structurée, revues staging et releases alignées sur votre calendrier commercial." },
+    "6": { "title": "Portée internationale", "body": "Des équipes dans plus de 15 pays nous confient des enjeux critiques. Nous adaptons fuseau, marché et exigences de conformité dès le premier jour." }
+  },
+  "lifecycle": {
+    "steps": {
+      "1": { "phase": "Découverte", "what": "Nous comprenons votre idée, vos objectifs, vos utilisateurs et vos contraintes. Nous posons les bonnes questions pour éviter les suppositions.", "client": "1–2 appels ou Q&R asynchrones. Le client partage sa vision." },
+      "2": { "phase": "Périmètre & proposition", "what": "Nous définissons le périmètre complet, la stack, le calendrier et le coût. Vous recevez une proposition écrite — sans surprises ensuite.", "client": "Le client examine et approuve avant le démarrage." },
+      "3": { "phase": "Design & prototype", "what": "UI/UX, wireframes, prototype cliquable. Vous voyez et ressentez le produit avant une ligne de code.", "client": "Le client valide les designs. Tours de feedback inclus." },
+      "4": { "phase": "Construction & QA", "what": "Développement avec mises à jour régulières. Tests automatisés et manuels. Les bugs sont corrigés avant d'arriver chez vous.", "client": "Le client accède à un environnement de staging pour valider en live." },
+      "5": { "phase": "Lancement", "what": "Nous déployons sur votre domaine, configurons l'hébergement, le SSL et la supervision. Votre produit est en ligne.", "client": "Le client fournit l'accès au domaine. Nous gérons le reste." },
+      "6": { "phase": "Support & croissance", "what": "Corrections post-lancement, mises à jour et nouvelles fonctionnalités. Un partenariat durable, pas une vente unique.", "client": "Le client nous contacte quand il le souhaite." }
+    },
+    "preview": {
+      "1": { "phase": "Découverte", "line": "Nous clarifions objectifs, utilisateurs et contraintes avant toute construction." },
+      "2": { "phase": "Design", "line": "UI/UX et prototypes pour ressentir le produit tôt." },
+      "3": { "phase": "Construction", "line": "Ingénierie avec QA — revues staging et avancement régulier." },
+      "4": { "phase": "Lancement", "line": "Déploiement, SSL, monitoring — mise en ligne sereine." }
+    },
+    "columns": { "phase": "Phase", "what": "Ce qui se passe", "client": "Implication client" }
+  },
+  "services": {
+    "page_title": "Ce que nous construisons",
+    "page_sub": "Quoi que ce soit, nous pouvons le construire.",
+    "bottom_cta": "Vous ne savez pas quel service choisir ? Décrivez votre idée et nous recommanderons.",
+    "lifecycle_anchor": "lifecycle",
+    "items": {
+      "web": {
+        "title": "Applications web",
+        "summary": "Apps web rapides et sécurisées — tableaux de bord, portails et SaaS.",
+        "description": "Nous concevons et construisons des applications web production avec architecture scalable, UX soignée et déploiements fiables.",
+        "inc1": "Ateliers de découverte et périmètre écrit",
+        "inc2": "UI/UX, frontend, backend et DevOps",
+        "inc3": "Tests, lancement et documentation de passation"
+      },
+      "mobile": {
+        "title": "Applications mobiles",
+        "summary": "Apps cross-plateforme avec UX soignée et mode hors ligne quand nécessaire.",
+        "description": "Du MVP aux stores, nous gérons le mobile UX, les APIs, les notifications et la conformité.",
+        "inc1": "Parcours produit et prototypes interactifs",
+        "inc2": "Builds iOS/Android et CI",
+        "inc3": "Analytics, crash reporting et support release"
+      },
+      "ai": {
+        "title": "IA & chatbots",
+        "summary": "Assistants ancrés dans vos données — avec garde-fous et analytics.",
+        "description": "Nous implémentons des assistants LLM, pipelines de retrieval et passation humaine pour un support mesurable.",
+        "inc1": "Ingestion de connaissances et évaluation",
+        "inc2": "Prompting, sécurité et supervision",
+        "inc3": "Outils admin et tableaux de bord analytics"
+      },
+      "extensions": {
+        "title": "Extensions navigateur",
+        "summary": "Outils de productivité là où vos utilisateurs travaillent déjà.",
+        "description": "Nous construisons des extensions Manifest V3 avec permissions sécurisées, UX soignée et releases maintenables.",
+        "inc1": "Revue des permissions et sécurité",
+        "inc2": "Packaging multi-navigateurs",
+        "inc3": "Publication et stratégie de mise à jour"
+      },
+      "automation": {
+        "title": "Automatisation & intégrations",
+        "summary": "Connecter les systèmes, supprimer le travail manuel, fiabiliser les données.",
+        "description": "Nous automatisons les flux entre ERP, CRM et APIs custom avec observabilité et audit.",
+        "inc1": "Cartographie des processus et risques",
+        "inc2": "Développement d'intégrations et tests",
+        "inc3": "Monitoring, alertes et runbooks"
+      }
+    }
+  },
+  "work": {
+    "title": "Nos réalisations",
+    "sub": "Un aperçu de projets — placeholders jusqu'aux captures finales.",
+    "filter_all": "Tout",
+    "filter_web": "Web",
+    "filter_mobile": "Mobile",
+    "filter_ai": "IA & Chatbot",
+    "filter_extension": "Extension",
+    "filter_automation": "Automatisation",
+    "tagline": "Accroche",
+    "visit_live": "Voir le site",
+    "related": "Projets liés",
+    "who_built": "Qui a construit ceci",
+    "problem": "Problème",
+    "solution": "Solution",
+    "outcome": "Résultat",
+    "tech_stack": "Stack technique",
+    "gallery": "Galerie",
+    "year": "Année",
+    "category": "Catégorie",
+    "region": "Région",
+    "status": "Statut",
+    "deployed": "Déployé",
+    "in_progress": "En cours",
+    "back_to_work": "Retour au portfolio"
+  },
+  "products": {
+    "page_title": "Produits",
+    "page_sub": "Plus qu'un service.",
+    "page_hero_line": "Nous construisons une fois. Nous vendons à l'échelle. Nous améliorons sans fin.",
+    "pos": {
+      "name": "BitZealth POS",
+      "description": "Une caisse claire pour les petits commerces qui veulent vitesse, simplicité et reporting fiable.",
+      "audience": "Équipes retail qui veulent un flux de caisse fluide et une visibilité stocks sans complexité enterprise.",
+      "f1": "Encaissement rapide, workflows clavier",
+      "f2": "Stocks et alertes de rupture",
+      "f3": "Accès par rôles pour équipe et managers",
+      "f4": "Exports prêts pour la compta"
+    },
+    "status_coming_soon": "Bientôt",
+    "email_placeholder": "vous@entreprise.com",
+    "notify_cta": "Me prévenir",
+    "notify_success": "Vous êtes inscrit. Nous vous écrirons à l'ouverture bêta.",
+    "notify_error": "Inscription impossible. Réessayez ou écrivez-nous.",
+    "future_title": "La suite",
+    "future": {
+      "inventory": "Intelligence stocks",
+      "analytics": "Analytics magasin",
+      "payments": "Hub paiements"
+    },
+    "locked": "En recherche",
+    "form_subject": "Liste d’attente POS"
+  },
+  "team": {
+    "page_title": "Équipe",
+    "intro": "Nous sommes Muhammad Bilal et Zain — deux diplômés en informatique d'Islamabad, qui construisent des logiciels pour le monde.",
+    "values_title": "Notre façon de travailler",
+    "v1": "Transparence",
+    "v2": "Artisanat",
+    "v3": "Vitesse",
+    "v4": "Responsabilité",
+    "view_profile": "Voir le profil",
+    "projects_title": "Projets sur lesquels j'ai travaillé",
+    "empty_projects": "D'autres projets arrivent bientôt",
+    "bilal": {
+      "role": "Cofondateur & développeur full-stack",
+      "bio": "Diplômé CS médaille d'or, focalisé sur des systèmes fiables. Aime transformer des idées floues en roadmaps et code production."
+    },
+    "zain": {
+      "role": "Cofondateur & ingénieur",
+      "bio": "Diplômé CS, focalisé sur UX nette et livraison maintenable. Aime raccourcir les boucles design–engineering–client."
+    }
+  },
+  "contact": {
+    "opener": "Aucune connaissance technique requise. Parlez-nous simplement de votre idée.",
+    "aside_email": "Email",
+    "aside_location": "Localisation",
+    "title": "Contact",
+    "name": "Votre nom",
+    "email": "Votre email",
+    "project_type": "Type de projet",
+    "budget": "Budget (optionnel)",
+    "message": "Parlez-nous de votre idée",
+    "submit": "Envoyer",
+    "submitting": "Envoi…",
+    "success": "Message envoyé ! Nous revenons vers vous sous 24h.",
+    "error": "Une erreur s'est produite. Écrivez-nous directement.",
+    "book": "Réserver un appel",
+    "upwork": "Upwork",
+    "fiverr": "Fiverr",
+    "project_types": {
+      "web": "Application web",
+      "mobile": "Application mobile",
+      "ai": "Chatbot IA",
+      "automation": "Automatisation",
+      "pos": "POS",
+      "extension": "Extension navigateur",
+      "unsure": "Pas encore sûr"
+    },
+    "budgets": {
+      "u1k": "Moins de 1 000 $",
+      "1to5": "1 000 $ – 5 000 $",
+      "5to20": "5 000 $ – 20 000 $",
+      "20p": "20 000 $+",
+      "discuss": "Discutons-en"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": "Dois-je connaître la tech ?",
+    "a1": "Pas du tout. Vous expliquez votre idée simplement — ce qu'elle doit faire, qui l'utilise, quel problème elle résout. Nous traduisons en plan technique. Vous suivez avec des mises à jour claires.",
+    "q2": "Combien coûte un projet ?",
+    "a2": "Chaque projet est différent. Après un appel découverte gratuit, nous envoyons une proposition détaillée avec prix fixe ou jalons. Pas de frais cachés.",
+    "q3": "Combien de temps prend un projet ?",
+    "a3": "Une app web typique : 4–12 semaines selon la complexité. Mobile : 6–14 semaines. Délai clair dans la proposition et mises à jour régulières.",
+    "q4": "Pouvez-vous reprendre mon système ou code existant ?",
+    "a4": "Oui. Nous reprenons souvent des projets, intégrons des APIs et étendons des systèmes legacy. Partagez ce que vous avez.",
+    "q5": "Que se passe-t-il après le lancement ?",
+    "a5": "Nous proposons support et maintenance. Beaucoup de clients continuent avec nous pour de nouvelles fonctionnalités. Partenaire long terme, pas un one-shot.",
+    "q6": "Signez-vous des NDA ?",
+    "a6": "Oui. NDA avant toute discussion sensible. Votre idée est protégée.",
+    "q7": "Comment communiquons-nous pendant le projet ?",
+    "a7": "Espace projet partagé (Notion, Linear, etc.) avec suivi en temps réel. Points hebdo et contact email/WhatsApp."
+  },
+  "testimonials": {
+    "q1": "BitZealth a rendu la livraison prévisible — périmètre clair, communication nette, produit prêt à lancer.",
+    "q2": "Pas besoin d'équipe interne. Ils ont porté la tech de bout en bout avec des mises à jour simples.",
+    "q3": "Solide en ingénierie et UX. Approche partenariat, pas file de tickets."
+  },
+  "footer": {
+    "built_in": "Construit à Islamabad 🇵🇰",
+    "rights": "Tous droits réservés."
+  },
+  "not_found": {
+    "title": "Page introuvable",
+    "body": "La page demandée n'existe pas.",
+    "home": "Retour à l'accueil"
+  },
+  "seo": {
+    "home": { "title": "BitZealth — Agence logicielle complète", "desc": "Vous avez l'idée. Nous gérons tout le reste. Web, mobile, IA, automatisation — livré de bout en bout depuis Islamabad, Pakistan." },
+    "services": { "title": "Services — BitZealth", "desc": "Apps web, mobile, IA, extensions et automatisation — cycle complet avec une équipe responsable." },
+    "work": { "title": "Réalisations — BitZealth", "desc": "Projets sélectionnés — web, mobile, IA, extensions et automatisation." },
+    "products": { "title": "Produits — BitZealth", "desc": "Feuille de route produit, dont le POS — construit pour durer." },
+    "team": { "title": "Équipe — BitZealth", "desc": "Rencontrez les fondateurs — ingénierie, artisanat, vitesse." },
+    "contact": { "title": "Contact — BitZealth", "desc": "Décrivez votre idée simplement — réponse rapide avec prochaines étapes." },
+    "notfound": { "title": "404 — BitZealth", "desc": "Page introuvable." }
+  }
+}
