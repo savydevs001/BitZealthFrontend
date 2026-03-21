@@ -2,7 +2,7 @@ export const brand = {
   nameShort: 'BZ',
   nameFull: 'BitZealth',
   tagline: 'You have the idea. We handle everything else.',
-  domain: 'bitzealh.com',
+  domain: 'bitzealth.com',
   title: 'BitZealth — Complete Software Agency',
   description: 'BitZealth — complete software agency. You have the idea. We handle everything else. Web, mobile, AI, automation from Islamabad, Pakistan.',
   ogImage: '/assets/logo.svg',
