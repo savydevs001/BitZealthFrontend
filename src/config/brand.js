@@ -6,7 +6,7 @@ export const brand = {
   title: 'BitZealth — Complete Software Agency',
   description: 'BitZealth — complete software agency. You have the idea. We handle everything else. Web, mobile, AI, automation from Islamabad, Pakistan.',
   ogImage: '/assets/logo.svg',
-  twitterHandle: '@bitzealh',
+  twitterHandle: '@bitzealth',
   logo: {
     src: '/assets/logo.svg',
     width: 68,
@@ -24,14 +24,14 @@ export const brand = {
     border: 'rgba(139, 92, 246, 0.15)',
   },
   contact: {
-    email: 'hello@bitzealh.com',
+    email: 'hello@bitzealth.com',
     whatsapp: '',
     location: 'Islamabad, Pakistan',
     calendly: '',
   },
   socials: {
-    linkedin: 'https://linkedin.com/company/bitzealh',
-    github: 'https://github.com/bitzealh',
+    linkedin: 'https://linkedin.com/company/bitzealth',
+    github: 'https://github.com/bitzealth',
     upwork: '',
     fiverr: '',
   },

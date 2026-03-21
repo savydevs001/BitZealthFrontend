@@ -1,7 +1,7 @@
 # BitZealth — Website Build Specification
 
 > **Stack:** React 18 + Vite · React Router v6 · react-i18next (EN/FR/AR) · CSS Modules · Cloudflare Pages  
-> **Domain:** bitzealh.com · **Phase:** 1 — Static frontend, no backend
+> **Domain:** bitzealth.com · **Phase:** 1 — Static frontend, no backend
 
 ---
 
@@ -29,7 +29,7 @@
 |-----|-------|
 | Agency | BitZealth — Complete Software Agency, Islamabad, Pakistan |
 | Founders | Muhammad Bilal Gul (CS Gold Medal) · Zain Ali (CS) |
-| Domain | bitzealh.com |
+| Domain | bitzealth.com |
 | Hosting | Cloudflare Pages (free tier — global CDN, custom domain, HTTPS auto) |
 | Stack | React 18 + Vite · React Router v6 · react-i18next · CSS Modules |
 | Languages | English (default) · French · Arabic (full RTL layout) |
@@ -150,7 +150,7 @@ export const brand = {
   nameShort:   'BZ',
   nameFull:    'BitZealth',
   tagline:     'You have the idea. We handle everything else.',
-  domain:      'bitzealh.com',
+  domain:      'bitzealth.com',
   logo: {
     src:    '/assets/logo.svg',  // swap to change logo everywhere
     width:  40,
@@ -168,14 +168,14 @@ export const brand = {
     border:     'rgba(167,139,250,0.15)',
   },
   contact: {
-    email:    'hello@bitzealh.com',
+    email:    'hello@bitzealth.com',
     whatsapp: '',         // add number when ready
     location: 'Islamabad, Pakistan',
     calendly: '',         // add Calendly URL when ready
   },
   socials: {
-    linkedin: 'https://linkedin.com/company/bitzealh',
-    github:   'https://github.com/bitzealh',
+    linkedin: 'https://linkedin.com/company/bitzealth',
+    github:   'https://github.com/bitzealth',
     upwork:   '',
     fiverr:   '',
   },
@@ -669,7 +669,7 @@ const memberProjects = portfolio.filter(p => p.teamSlugs.includes(member.slug))
 ## 11. File & Folder Structure
 
 ```
-bitzealh/
+bitzealth/
 ├── public/
 │   ├── _redirects                      ← CRITICAL for Cloudflare Pages (see Section 12)
 │   ├── assets/
@@ -768,7 +768,7 @@ bitzealh/
 |---------|--------|
 | Cost | Free tier — unlimited bandwidth, 500 builds/month |
 | Performance | 300+ edge locations — fast from UK, Nigeria, USA alike |
-| Custom domain | bitzealh.com already on Cloudflare DNS — connects in ~2 minutes |
+| Custom domain | bitzealth.com already on Cloudflare DNS — connects in ~2 minutes |
 | HTTPS | Auto-provisioned SSL, zero config |
 | Analytics | Cloudflare Web Analytics built-in — no cookies, no GDPR banner |
 | Preview URLs | Every git push gets a unique preview URL |
@@ -803,14 +803,14 @@ export default defineConfig({
 ### 12.4 Step-by-Step Deployment
 
 **Step 1 — Push to GitHub**
-1. Create repo at github.com — name it `bitzealh-website`
+1. Create repo at github.com — name it `bitzealth-website`
 2. `git init && git add . && git commit -m "Initial commit"`
-3. `git remote add origin https://github.com/YOUR_USERNAME/bitzealh-website.git`
+3. `git remote add origin https://github.com/YOUR_USERNAME/bitzealth-website.git`
 4. `git push -u origin main`
 
 **Step 2 — Create Cloudflare Pages project**
 1. Cloudflare dashboard → Workers & Pages → Pages → Create a project
-2. Connect to Git → Authorize GitHub → Select `bitzealh-website`
+2. Connect to Git → Authorize GitHub → Select `bitzealth-website`
 3. Build settings:
    - Framework preset: **Vite**
    - Build command: `npm run build`
@@ -818,12 +818,12 @@ export default defineConfig({
 4. Save and Deploy — wait ~60 seconds
 5. Test the generated `*.pages.dev` preview URL
 
-**Step 3 — Connect bitzealh.com**
+**Step 3 — Connect bitzealth.com**
 1. Cloudflare Pages project → Custom domains → Add custom domain
-2. Enter `bitzealh.com` → Confirm
+2. Enter `bitzealth.com` → Confirm
 3. DNS record added automatically (already on Cloudflare)
 4. SSL provisions automatically — site live in ~2 minutes
-5. Optionally add `www.bitzealh.com` as a second custom domain
+5. Optionally add `www.bitzealth.com` as a second custom domain
 
 **Step 4 — Auto-deploy forever**
 - Any `git push` to `main` → new build → live automatically
@@ -848,7 +848,7 @@ fetch(`https://formspree.io/f/${formId}`, { method: 'POST', body: formData })
 ### 12.6 Cloudflare Web Analytics
 
 1. Cloudflare dashboard → Analytics & Logs → Web Analytics
-2. Add a site → select bitzealh.com
+2. Add a site → select bitzealth.com
 3. Enable automatic tracking — uses Cloudflare's edge, no JS snippet needed
 4. Done. Real-time traffic visible at dash.cloudflare.com.
 
@@ -963,4 +963,4 @@ The full specification is in SPEC.md at the project root.
 
 ---
 
-*BitZealth — bitzealh.com | Islamabad, Pakistan*
+*BitZealth — bitzealth.com | Islamabad, Pakistan*
