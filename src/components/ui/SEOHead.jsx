@@ -9,8 +9,8 @@ import { getOrganizationSchema } from './JsonLd.jsx'
  */
 export function SEOHead({ title, desc, titleKey, descKey, author, schema }) {
   const { t } = useTranslation()
-  const displayTitle = titleKey ? t(titleKey) : (title || brand?.nameFull || 'BitZealth')
-  const displayDesc = descKey ? t(descKey) : (desc || brand?.tagline || '')
+  const displayTitle = titleKey ? t(titleKey) : (title || brand.title)
+  const displayDesc = descKey ? t(descKey) : (desc || brand.description)
   
   useEffect(() => {
     // 1. Update Title
@@ -27,18 +27,33 @@ export function SEOHead({ title, desc, titleKey, descKey, author, schema }) {
 
     // 3. Update OG Tags
     const ogValues = {
+      'og:site_name': brand.nameFull,
       'og:title': displayTitle,
       'og:description': displayDesc,
       'og:url': window.location.href,
       'og:type': 'website',
-      'og:image': `https://${brand.domain}/og-image.png`
+      'og:image': `https://${brand.domain}${brand.ogImage}`
     }
 
-    Object.entries(ogValues).forEach(([prop, val]) => {
-      let el = document.querySelector(`meta[property="${prop}"]`)
+    const twitterValues = {
+      'twitter:card': 'summary_large_image',
+      'twitter:title': displayTitle,
+      'twitter:description': displayDesc,
+      'twitter:image': `https://${brand.domain}${brand.ogImage}`,
+      'twitter:site': brand.twitterHandle
+    }
+
+    Object.entries({ ...ogValues, ...twitterValues }).forEach(([prop, val]) => {
+      const isOg = prop.startsWith('og:')
+      const selector = isOg ? `meta[property="${prop}"]` : `meta[name="${prop}"]`
+      let el = document.querySelector(selector)
       if (!el) {
         el = document.createElement('meta')
-        el.setAttribute('property', prop)
+        if (isOg) {
+          el.setAttribute('property', prop)
+        } else {
+          el.name = prop
+        }
         document.head.appendChild(el)
       }
       el.content = val

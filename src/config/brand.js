@@ -3,10 +3,14 @@ export const brand = {
   nameFull: 'BitZealth',
   tagline: 'You have the idea. We handle everything else.',
   domain: 'bitzealh.com',
+  title: 'BitZealth — Complete Software Agency',
+  description: 'BitZealth — complete software agency. You have the idea. We handle everything else. Web, mobile, AI, automation from Islamabad, Pakistan.',
+  ogImage: '/assets/logo.svg',
+  twitterHandle: '@bitzealh',
   logo: {
     src: '/assets/logo.svg',
-    width: 40,
-    height: 40,
+    width: 68,
+    height: 68,
   },
   colors: {
     primary: '#8B5CF6', // Vivid Violet
