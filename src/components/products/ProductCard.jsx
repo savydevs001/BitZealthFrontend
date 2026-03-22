@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Badge } from '../ui/Badge.jsx'
 import styles from './ProductCard.module.css'
 
-export function ProductCard({ product }) {
+export function ProductCard({ product, reveal = false }) {
   const { t } = useTranslation()
   const formId = import.meta.env.VITE_FORMSPREE_PRODUCT
   const [status, setStatus] = useState('idle')
@@ -34,7 +34,7 @@ export function ProductCard({ product }) {
   }
 
   return (
-    <div className={styles.card}>
+    <div className={`${styles.card} bz-hover-card ${reveal ? 'bz-reveal' : ''}`}>
       <div className={styles.top}>
         <h2 className={styles.title}>{t(product.nameKey)}</h2>
         <Badge variant="accent">{t('products.status_coming_soon')}</Badge>

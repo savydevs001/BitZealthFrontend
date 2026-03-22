@@ -18,8 +18,8 @@ export function Team() {
         </div>
 
         <div className={styles.grid}>
-          {team.map((m) => (
-            <TeamCard key={m.slug} member={m} />
+          {team.map((m, idx) => (
+            <TeamCard key={m.slug} member={m} reveal index={idx} />
           ))}
         </div>
 

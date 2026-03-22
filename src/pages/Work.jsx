@@ -26,9 +26,9 @@ export function Work() {
         <FilterBar active={filter} onChange={setFilter} />
 
         <div className={styles.grid} key={filter} data-filter={filter}>
-          {filtered.map((p) => (
+          {filtered.map((p, idx) => (
             <div key={p.slug} className={styles.cell}>
-              <ProjectCard project={p} reveal />
+              <ProjectCard project={p} reveal index={idx} />
             </div>
           ))}
         </div>

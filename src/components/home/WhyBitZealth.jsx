@@ -15,7 +15,10 @@ export function WhyBitZealth() {
         {ICONS.map((Icon, idx) => {
           const key = String(idx + 1)
           return (
-            <article key={key} className={`${styles.card} bz-reveal`}>
+            <article 
+              key={key} 
+              className={`${styles.card} bz-reveal bz-hover-card bz-delay-${((idx + 1) % 6) * 100}`}
+            >
               <div className={styles.icon}>
                 <Icon size={22} />
               </div>

@@ -17,8 +17,8 @@ export function FeaturedWork() {
       </div>
 
       <div className={styles.grid}>
-        {featured.map((p) => (
-          <ProjectCard key={p.slug} project={p} reveal />
+        {featured.map((p, idx) => (
+          <ProjectCard key={p.slug} project={p} reveal index={idx} />
         ))}
       </div>
 

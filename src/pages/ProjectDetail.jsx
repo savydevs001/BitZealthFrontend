@@ -96,23 +96,23 @@ export function ProjectDetail() {
           ) : null}
         </div>
 
-        <h1 className={styles.h1}>{project.title}</h1>
-        <p className={styles.tagline}>{project.tagline}</p>
+        <h1 className={`${styles.h1} bz-reveal`}>{project.title}</h1>
+        <p className={`${styles.tagline} bz-reveal bz-delay-100`}>{project.tagline}</p>
 
-        <div className={styles.section}>
+        <div className={`${styles.section} bz-reveal`}>
           <h2 className={styles.h2}>{t('work.problem')}</h2>
           <p className={styles.p}>{project.problem}</p>
         </div>
-        <div className={styles.section}>
+        <div className={`${styles.section} bz-reveal`}>
           <h2 className={styles.h2}>{t('work.solution')}</h2>
           <p className={styles.p}>{project.solution}</p>
         </div>
-        <div className={styles.section}>
+        <div className={`${styles.section} bz-reveal`}>
           <h2 className={styles.h2}>{t('work.outcome')}</h2>
           <p className={styles.p}>{project.outcome}</p>
         </div>
 
-        <div className={styles.section}>
+        <div className={`${styles.section} bz-reveal`}>
           <h2 className={styles.h2}>{t('work.tech_stack')}</h2>
           <div className={styles.tags}>
             {project.techStack.map((x) => (
@@ -124,13 +124,13 @@ export function ProjectDetail() {
         </div>
 
         {project.images?.length ? (
-          <div className={styles.section}>
+          <div className={`${styles.section} bz-reveal`}>
             <h2 className={styles.h2}>{t('work.gallery')}</h2>
             <ImageCarousel images={project.images} alt={project.title} />
           </div>
         ) : null}
 
-        <div className={styles.section}>
+        <div className={`${styles.section} bz-reveal`}>
           <h2 className={styles.h2}>{t('work.who_built')}</h2>
           <div className={styles.teamGrid}>
             {projectTeam.map((m) => (
@@ -140,7 +140,7 @@ export function ProjectDetail() {
         </div>
 
         {related.length ? (
-          <div className={styles.section}>
+          <div className={`${styles.section} bz-reveal`}>
             <h2 className={styles.h2}>{t('work.related')}</h2>
             <div className={styles.related}>
               {related.map((p) => (

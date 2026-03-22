@@ -13,18 +13,18 @@ export function Products() {
     <>
       <SEOHead titleKey="seo.products.title" descKey="seo.products.desc" />
       <SectionWrapper>
-        <div className={styles.hero}>
+        <div className={`${styles.hero} bz-reveal`}>
           <h1>{t('products.page_title')}</h1>
           <p className={styles.sub}>{t('products.page_sub')}</p>
-          <p className={styles.line}>{t('products.page_hero_line')}</p>
+          <p className={`${styles.line} bz-reveal bz-delay-200`}>{t('products.page_hero_line')}</p>
         </div>
 
-        <ProductCard product={products.pos} />
+        <ProductCard product={products.pos} reveal />
 
         <h2 className={styles.h2}>{t('products.future_title')}</h2>
         <div className={styles.future}>
-          {products.future.map((p) => (
-            <div key={p.id} className={styles.fcard}>
+          {products.future.map((p, idx) => (
+            <div key={p.id} className={`${styles.fcard} bz-reveal bz-delay-${((idx + 1) % 4) * 200}`}>
               <Lock size={18} aria-hidden />
               <div className={styles.ftitle}>{t(p.titleKey)}</div>
               <div className={styles.fmeta}>{t('products.locked')}</div>

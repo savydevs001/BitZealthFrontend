@@ -24,9 +24,9 @@ export function Services() {
     <>
       <SEOHead titleKey="seo.services.title" descKey="seo.services.desc" />
       <SectionWrapper>
-        <div className={styles.hero}>
+        <div className={`${styles.hero} bz-reveal`}>
           <h1>{t('services.page_title')}</h1>
-          <p className={styles.sub}>{t('services.page_sub')}</p>
+          <p className={`${styles.sub} bz-reveal bz-delay-200`}>{t('services.page_sub')}</p>
         </div>
 
         <div className={styles.blocks}>
@@ -34,7 +34,7 @@ export function Services() {
             const Icon = ICONS[s.icon] || Globe
             const odd = idx % 2 === 1
             return (
-              <section key={s.id} id={s.id} className={`${styles.block} ${odd ? styles.blockAlt : ''}`}>
+              <section key={s.id} id={s.id} className={`${styles.block} ${odd ? styles.blockAlt : ''} bz-reveal`}>
                 <div className={styles.icon}>
                   <Icon size={26} />
                 </div>
@@ -59,7 +59,7 @@ export function Services() {
           })}
         </div>
 
-        <div className={styles.timelineWrap}>
+        <div className={`${styles.timelineWrap} bz-reveal`}>
           <h2 className={styles.h2center}>{t('home.lifecycle_preview_title')}</h2>
           <LifecycleTimeline />
         </div>

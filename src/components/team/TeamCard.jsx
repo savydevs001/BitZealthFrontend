@@ -5,11 +5,13 @@ import { Badge } from '../ui/Badge.jsx'
 import { Button } from '../ui/Button.jsx'
 import styles from './TeamCard.module.css'
 
-export function TeamCard({ member }) {
+export function TeamCard({ member, reveal = false, index = 0 }) {
   const { t } = useTranslation()
 
   return (
-    <article className={styles.card}>
+    <article 
+      className={`${styles.card} bz-hover-card ${reveal ? 'bz-reveal' : ''} ${reveal ? `bz-delay-${((index + 1) % 4) * 100}` : ''}`}
+    >
       <div className={styles.photoWrap}>
         <img src={member.photo} alt="" className={styles.photo} loading="lazy" />
       </div>

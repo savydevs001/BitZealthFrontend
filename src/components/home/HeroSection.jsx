@@ -38,7 +38,7 @@ export function HeroSection() {
           <p className={styles.trust}>{t('hero.trust')}</p>
           <p className={styles.sub}>{t('hero.sub')}</p>
           <div className={styles.ctas}>
-            <Button to="/contact" variant="primary">
+            <Button to="/contact" variant="primary" className="bz-btn-premium">
               {t('hero.cta_primary')}
             </Button>
             <Button to="/work" variant="outline">
@@ -59,7 +59,7 @@ export function HeroSection() {
         </div>
 
         <div className={styles.art} aria-hidden>
-          <div className={`${styles.logoMark} bz-animate-float`}>
+          <div className={`${styles.logoMark} bz-animate-float bz-animate-glow`}>
             <img src={brand.logo.src} width={120} height={120} alt="" />
           </div>
         </div>

@@ -24,10 +24,13 @@ export function ServicesStrip() {
       </div>
 
       <div className={styles.grid}>
-        {services.map((s) => {
+        {services.map((s, idx) => {
           const Icon = ICONS[s.icon] || Globe
           return (
-            <article key={s.id} className={`${styles.card} bz-reveal`}>
+            <article 
+              key={s.id} 
+              className={`${styles.card} bz-reveal bz-hover-card bz-delay-${((idx + 1) % 5) * 100}`}
+            >
               <div className={styles.icon}>
                 <Icon size={22} />
               </div>

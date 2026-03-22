@@ -56,7 +56,7 @@ export function Navbar() {
 
         <div className={styles.actions}>
           <LanguageSwitcher />
-          <Button to="/contact" variant="primary" className={styles.cta}>
+          <Button to="/contact" variant="primary" className={`${styles.cta} bz-btn-premium`}>
             {t('nav.cta')}
           </Button>
           <button
@@ -80,7 +80,7 @@ export function Navbar() {
           <div className={styles.drawerLang}>
             <LanguageSwitcher />
           </div>
-          <Button to="/contact" variant="primary" className={styles.drawerCta} onClick={() => setOpen(false)}>
+          <Button to="/contact" variant="primary" className={`${styles.drawerCta} bz-btn-premium`} onClick={() => setOpen(false)}>
             {t('nav.cta')}
           </Button>
         </div>

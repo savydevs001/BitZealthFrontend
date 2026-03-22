@@ -6,7 +6,7 @@ import { Badge } from '../ui/Badge.jsx'
 import { Button } from '../ui/Button.jsx'
 import styles from './ProjectCard.module.css'
 
-export function ProjectCard({ project, reveal = false }) {
+export function ProjectCard({ project, reveal = false, index = 0 }) {
   const { t } = useTranslation()
   const deployed = project.status === 'deployed'
 
@@ -17,7 +17,9 @@ export function ProjectCard({ project, reveal = false }) {
   )
 
   return (
-    <article className={`${styles.card} ${reveal ? 'bz-reveal' : ''}`}>
+    <article 
+      className={`${styles.card} bz-hover-card ${reveal ? 'bz-reveal' : ''} ${reveal ? `bz-delay-${(index % 5 + 1) * 100}` : ''}`}
+    >
       <Link to={`/work/${project.slug}`} className={styles.media}>
         {thumb}
       </Link>

@@ -11,8 +11,11 @@ export function Testimonials() {
     <SectionWrapper>
       <h2 className={styles.h2}>{t('home.testimonials_title')}</h2>
       <div className={styles.grid}>
-        {testimonials.map((x) => (
-          <figure key={x.id} className={`${styles.card} bz-reveal`}>
+        {testimonials.map((x, idx) => (
+          <figure 
+            key={x.id} 
+            className={`${styles.card} bz-reveal bz-hover-card bz-delay-${((idx + 1) % 4) * 100}`}
+          >
             <blockquote className={styles.quote}>{t(x.quoteKey)}</blockquote>
             <figcaption className={styles.meta}>
               <span className={styles.name}>{x.name}</span>

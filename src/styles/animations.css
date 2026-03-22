@@ -57,11 +57,99 @@
 
 .bz-reveal {
   opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 0.55s ease, transform 0.55s ease;
+  transform: translateY(24px) scale(0.98);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
 }
 
 .bz-reveal.bz-reveal-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
+}
+
+/* Staggered Delays */
+.bz-delay-100 { transition-delay: 100ms; }
+.bz-delay-200 { transition-delay: 200ms; }
+.bz-delay-300 { transition-delay: 300ms; }
+.bz-delay-400 { transition-delay: 400ms; }
+.bz-delay-500 { transition-delay: 500ms; }
+
+/* Premium Hover Effects */
+.bz-hover-card {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bz-hover-card:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(139, 92, 246, 0.1);
+}
+
+@keyframes bz-glow-pulse {
+  0%, 100% { filter: drop-shadow(0 0 5px rgba(139, 92, 246, 0.3)); }
+  50% { filter: drop-shadow(0 0 15px rgba(139, 92, 246, 0.6)); }
+}
+
+.bz-animate-glow {
+  animation: bz-glow-pulse 3s ease-in-out infinite;
+}
+
+@keyframes bz-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.bz-shimmer-text {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  background-size: 200% 100%;
+  animation: bz-shimmer 3s infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+}
+
+/* Global Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Button Premium Effects */
+.bz-btn-premium {
+  position: relative;
+  overflow: hidden;
+}
+
+.bz-btn-premium::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transform: rotate(45deg);
+  transition: transform 0.6s ease;
+}
+
+.bz-btn-premium:hover::after {
+  transform: rotate(45deg) translate(50%, 50%);
 }

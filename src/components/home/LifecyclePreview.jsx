@@ -17,7 +17,7 @@ export function LifecyclePreview() {
 
       <div className={styles.track}>
         {steps.map((k, i) => (
-          <div key={k} className={`${styles.step} bz-reveal`}>
+          <div key={k} className={`${styles.step} bz-reveal bz-delay-${((i + 1) % 4) * 100}`}>
             <div className={styles.num}>0{k}</div>
             <div className={styles.phase}>{t(`lifecycle.preview.${k}.phase`)}</div>
             <div className={styles.line}>{t(`lifecycle.preview.${k}.line`)}</div>
