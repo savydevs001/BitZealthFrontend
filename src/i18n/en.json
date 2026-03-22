@@ -200,15 +200,7 @@
     "v4": "Total Accountability",
     "view_profile": "Explore Profile",
     "projects_title": "Project Contributions",
-    "empty_projects": "Pioneering new technical frontiers.",
-    "bilal": {
-      "role": "Chief Technical Architect",
-      "bio": "A visionary architect specializing in AI systems and scalable cloud infrastructure. Bilal bridges the gap between complex engineering and strategic business value."
-    },
-    "zain": {
-      "role": "Principal Design Engineer",
-      "bio": "Expert in crafting elite UI/UX and resilient full-stack systems. Zain ensures every digital interaction is intuitive, beautiful, and performant."
-    }
+    "empty_projects": "Pioneering new technical frontiers."
   },
   "contact": {
     "opener": "No technical background required. We speak your language.",

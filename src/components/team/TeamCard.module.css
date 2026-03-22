@@ -19,6 +19,7 @@
 .photoWrap {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .photo {
@@ -27,6 +28,24 @@
   border-radius: 999px;
   object-fit: cover;
   border: 2px solid rgba(167, 139, 250, 0.35);
+}
+
+.founderBadge {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
+  white-space: nowrap;
+  pointer-events: none;
 }
 
 .name {

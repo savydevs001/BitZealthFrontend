@@ -26,6 +26,21 @@
 .role {
   color: rgba(241, 241, 243, 0.72);
   font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.founderTag {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  padding: 1px 8px;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.3);
 }
 
 .links {

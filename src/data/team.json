@@ -3,28 +3,67 @@
     "slug": "bilal-gul",
     "name": "Muhammad Bilal Gul",
     "shortName": "Bilal",
-    "roleKey": "team.bilal.role",
+    "isFounder": true,
+    "role": {
+      "en": "Chief Technical Architect",
+      "ar": "شريك مؤسس ومطوّر Full-Stack",
+      "fr": "Cofondateur & développeur full-stack"
+    },
+    "bio": {
+      "en": "A visionary architect specializing in AI systems and scalable cloud infrastructure. Bilal bridges the gap between complex engineering and strategic business value.",
+      "ar": "خريج بميدالية ذهبية يركّز على أنظمة موثوقة. يحوّل الأفكام الضبابية إلى خطط وإنتاج.",
+      "fr": "Diplômé CS médaille d'or, focalisé sur des systèmes fiables. Aime transformer des idées floues en roadmaps et code production."
+    },
     "photo": "/assets/team/bilal.svg",
-    "bioKey": "team.bilal.bio",
-    "skills": ["React", "Node.js", "Python", "AI Systems"],
-    "linkedin": "https://linkedin.com/in/bilalgul",
+    "skills": ["React", "Node.js", "Python", "AI Systems", "Cloud Infrastructure"],
+    "linkedin": "https://www.linkedin.com/in/muhammad-bilal-gul-8418181ab/",
+    "twitter": "https://x.com/MBilalGulS",
+    "instagram": "https://www.instagram.com/bilalgulsher/",
+    "facebook": "https://web.facebook.com/mbilalgulsher",
     "github": "https://github.com/bilalgul",
-    "instagram": "https://instagram.com/bilalgul",
-    "facebook": "https://facebook.com/bilalgul",
-    "website": "https://bilalgul.com"
+    "website": "https://bitzealth.com"
   },
   {
     "slug": "zain-ali",
     "name": "Zain Ali",
     "shortName": "Zain",
-    "roleKey": "team.zain.role",
+    "isFounder": true,
+    "role": {
+      "en": "Principal Design Engineer",
+      "ar": "شريك مؤسس ومهندس",
+      "fr": "Cofondateur & ingénieur"
+    },
+    "bio": {
+      "en": "Expert in crafting elite UI/UX and resilient full-stack systems. Zain ensures every digital interaction is intuitive, beautiful, and performant.",
+      "ar": "خريج يركّز على تجربة مستخدم نظيفة وتسليم قابل للصيانة. يقصّر حلقات التغذية الراجعة.",
+      "fr": "Diplômé CS, focalisé sur UX nette et livraison maintenable. Aime raccourcir les boucles design–engineering–client."
+    },
     "photo": "/assets/team/zain.svg",
-    "bioKey": "team.zain.bio",
-    "skills": ["TypeScript", "UI/UX", "Cloud", "DevOps"],
+    "skills": ["TypeScript", "UI/UX Design", "Cloud Architecture", "DevOps"],
     "linkedin": "https://linkedin.com/in/zainali",
     "github": "https://github.com/zainali",
     "instagram": "https://instagram.com/zainali",
     "facebook": "https://facebook.com/zainali",
-    "website": "https://zainali.com"
+    "website": "https://bitzealth.com"
+  },
+  {
+    "slug": "zoahib-flutter",
+    "name": "Muhammad Zoahib",
+    "shortName": "Zoahib",
+    "isFounder": false,
+    "role": {
+      "en": "Senior Flutter Developer",
+      "ar": "مطور فلاتر أول",
+      "fr": "Développeur Flutter Senior"
+    },
+    "bio": {
+      "en": "Specializing in high-performance cross-platform mobile applications with seamless animations and robust state management.",
+      "ar": "متخصص في تطبيقات الهاتف المحمول عالية الأداء مع رسوم متحركة سلسة وإدارة قوية للحالة.",
+      "fr": "Spécialisé dans les applications mobiles multiplateformes haute performance avec des animations fluides et une gestion d'état robuste."
+    },
+    "photo": "/assets/team/placeholder.svg",
+    "skills": ["Flutter", "Dart", "Firebase", "Mobile Architecture"],
+    "linkedin": "https://linkedin.com/in/zoahib",
+    "github": "https://github.com/zoahib"
   }
 ]

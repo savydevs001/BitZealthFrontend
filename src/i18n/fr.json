@@ -195,15 +195,7 @@
     "v4": "Responsabilité",
     "view_profile": "Voir le profil",
     "projects_title": "Projets sur lesquels j'ai travaillé",
-    "empty_projects": "D'autres projets arrivent bientôt",
-    "bilal": {
-      "role": "Cofondateur & développeur full-stack",
-      "bio": "Diplômé CS médaille d'or, focalisé sur des systèmes fiables. Aime transformer des idées floues en roadmaps et code production."
-    },
-    "zain": {
-      "role": "Cofondateur & ingénieur",
-      "bio": "Diplômé CS, focalisé sur UX nette et livraison maintenable. Aime raccourcir les boucles design–engineering–client."
-    }
+    "empty_projects": "D'autres projets arrivent bientôt"
   },
   "contact": {
     "opener": "Aucune connaissance technique requise. Parlez-nous simplement de votre idée.",

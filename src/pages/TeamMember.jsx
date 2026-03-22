@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Github, Linkedin, Globe, Instagram, Facebook } from 'lucide-react'
+import { Github, Linkedin, Globe, Instagram, Facebook, Twitter } from 'lucide-react'
 import portfolio from '../data/portfolio.json'
 import team from '../data/team.json'
 import { brand } from '../config/brand.js'
@@ -15,7 +15,8 @@ import styles from './TeamMember.module.css'
 
 export function TeamMember() {
   const { slug } = useParams()
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const lang = i18n.language || 'en'
 
   const member = team.find((m) => m.slug === slug)
 
@@ -39,18 +40,23 @@ export function TeamMember() {
     )
   }
 
-  const title = `${member.name} — BitZealth Team`
-  const personSchema = getPersonSchema({ ...member, role: t(member.roleKey) }, brand)
+  const role = member.role[lang] || member.role['en']
+  const bio = member.bio[lang] || member.bio['en']
+  const title = `${member.name} — ${role} — BitZealth`
+  const personSchema = getPersonSchema({ ...member, role }, brand)
 
   return (
     <>
-      <SEOHead title={title} desc={t(member.bioKey)} author={member.name} schema={personSchema} />
+      <SEOHead title={title} desc={bio} author={member.name} schema={personSchema} />
       <SectionWrapper>
         <div className={styles.hero}>
           <img className={styles.photo} src={member.photo} alt="" loading="eager" />
           <div>
             <h1 className={styles.name}>{member.name}</h1>
-            <div className={styles.role}>{t(member.roleKey)}</div>
+            <div className={styles.role}>
+              {member.isFounder && <span className={styles.founderTag}>Founder</span>}
+              {role}
+            </div>
             <div className={styles.links}>
               {member.linkedin && (
                 <a href={member.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
@@ -60,6 +66,11 @@ export function TeamMember() {
               {member.github && (
                 <a href={member.github} target="_blank" rel="noreferrer" aria-label="GitHub">
                   <Github size={20} />
+                </a>
+              )}
+              {member.twitter && (
+                <a href={member.twitter} target="_blank" rel="noreferrer" aria-label="X (Twitter)">
+                  <Twitter size={20} />
                 </a>
               )}
               {member.instagram && (
@@ -81,7 +92,7 @@ export function TeamMember() {
           </div>
         </div>
 
-        <p className={styles.bio}>{t(member.bioKey)}</p>
+        <p className={styles.bio}>{bio}</p>
 
         <div className={styles.skills}>
           {member.skills.map((s) => (
@@ -105,3 +116,4 @@ export function TeamMember() {
     </>
   )
 }
+
