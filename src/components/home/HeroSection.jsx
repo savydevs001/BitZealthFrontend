@@ -29,7 +29,6 @@ export function HeroSection() {
           background: `radial-gradient(circle at ${mousePos.x}% ${mousePos.y}%, rgba(139, 92, 246, 0.12), transparent 50%)` 
         }}
       />
-      <div className={styles.blob} aria-hidden />
       <div className={styles.grid} aria-hidden />
 
       <div className={styles.inner}>

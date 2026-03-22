@@ -16,18 +16,6 @@
   transition: background 0.1s ease-out;
 }
 
-.blob {
-  position: absolute;
-  inset: -20% -10% auto auto;
-  width: min(720px, 120vw);
-  height: min(720px, 120vw);
-  border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, var(--color-primary), transparent 60%);
-  filter: blur(80px);
-  opacity: 0.1;
-  animation: bz-blob 12s ease-in-out infinite;
-  pointer-events: none;
-}
 
 .grid {
   position: absolute;
@@ -141,15 +129,11 @@
   display: grid;
   place-items: center;
   box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);
+  will-change: transform, opacity, box-shadow;
 }
 
 .logoMark img {
   width: 50%;
-  filter: drop-shadow(0 20px 40px rgba(139, 92, 246, 0.4));
+  /* Removed expensive drop-shadow to improve animation smoothness */
 }
 
-@keyframes bz-blob {
-  0%, 100% { transform: scale(1) translate(0, 0); }
-  33% { transform: scale(1.1) translate(-5%, 5%); }
-  66% { transform: scale(0.9) translate(5%, -5%); }
-}

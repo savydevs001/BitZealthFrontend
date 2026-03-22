@@ -1,28 +1,13 @@
 @keyframes bz-float {
   0%,
   100% {
-    transform: translateY(0) rotate(0deg);
+    transform: translate3d(0, 0, 0) rotate(0deg);
   }
   50% {
-    transform: translateY(-12px) rotate(2deg);
+    transform: translate3d(0, -12px, 0) rotate(2deg);
   }
 }
 
-@keyframes bz-blob {
-  0%,
-  100% {
-    opacity: 0.06;
-    transform: scale(1) translate(0, 0);
-  }
-  33% {
-    opacity: 0.08;
-    transform: scale(1.05) translate(2%, -2%);
-  }
-  66% {
-    opacity: 0.07;
-    transform: scale(0.98) translate(-2%, 2%);
-  }
-}
 
 @keyframes bz-filter-in {
   from {
@@ -51,9 +36,6 @@
   animation: bz-float 6s ease-in-out infinite;
 }
 
-.bz-animate-blob {
-  animation: bz-blob 8s ease-in-out infinite;
-}
 
 .bz-reveal {
   opacity: 0;
@@ -85,12 +67,19 @@
 }
 
 @keyframes bz-glow-pulse {
-  0%, 100% { filter: drop-shadow(0 0 5px rgba(139, 92, 246, 0.3)); }
-  50% { filter: drop-shadow(0 0 15px rgba(139, 92, 246, 0.6)); }
+  0%, 100% { 
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5), 0 0 10px rgba(139, 92, 246, 0.2); 
+    opacity: 0.9;
+  }
+  50% { 
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.6), 0 0 40px rgba(139, 92, 246, 0.4); 
+    opacity: 1;
+  }
 }
 
 .bz-animate-glow {
-  animation: bz-glow-pulse 3s ease-in-out infinite;
+  animation: bz-glow-pulse 4s ease-in-out infinite;
+  will-change: transform, opacity, box-shadow;
 }
 
 @keyframes bz-shimmer {
