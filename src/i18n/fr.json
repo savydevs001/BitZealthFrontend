@@ -23,11 +23,11 @@
     "github": "GitHub"
   },
   "hero": {
-    "headline": "Vous avez l'idée. Nous gérons la tech.",
-    "sub": "Une exécution digne des grandes entreprises, sans lourdeur — de la découverte au déploiement, avec un partenaire unique et responsable.",
+    "headline": "De l'idée au produit lancé — nous gérons toute l'ingénierie.",
+    "sub": "Nous construisons des apps web, mobiles, des outils IA et des automatisations — de A à Z — pour les fondateurs et entreprises du monde entier.",
     "cta_primary": "Démarrer un projet",
     "cta_secondary": "Voir nos réalisations",
-    "trust": "5+ ans de livraison de confiance · 30+ produits livrés · 15+ pays"
+    "trust": "Applications web et mobiles développées à Islamabad, pour des clients dans 15+ pays."
   },
   "solution_strip": {
     "headline": "Vous avez l'idée. Nous gérons tout le reste.",
@@ -86,7 +86,7 @@
   },
   "services": {
     "page_title": "Ce que nous construisons",
-    "page_sub": "Quoi que ce soit, nous pouvons le construire.",
+    "page_sub": "Apps web, mobiles, IA et automatisation — développées de bout en bout par notre équipe à Islamabad.",
     "bottom_cta": "Vous ne savez pas quel service choisir ? Décrivez votre idée et nous recommanderons.",
     "lifecycle_anchor": "lifecycle",
     "items": {
@@ -263,12 +263,12 @@
     "home": "Retour à l'accueil"
   },
   "seo": {
-    "home": { "title": "BitZealth — Agence logicielle complète", "desc": "Vous avez l'idée. Nous gérons tout le reste. Web, mobile, IA, automatisation — livré de bout en bout depuis Islamabad, Pakistan." },
-    "services": { "title": "Services — BitZealth", "desc": "Apps web, mobile, IA, extensions et automatisation — cycle complet avec une équipe responsable." },
-    "work": { "title": "Réalisations — BitZealth", "desc": "Projets sélectionnés — web, mobile, IA, extensions et automatisation." },
-    "products": { "title": "Produits — BitZealth", "desc": "Feuille de route produit, dont le POS — construit pour durer." },
-    "team": { "title": "Équipe — BitZealth", "desc": "Rencontrez les fondateurs — ingénierie, artisanat, vitesse." },
-    "contact": { "title": "Contact — BitZealth", "desc": "Décrivez votre idée simplement — réponse rapide avec prochaines étapes." },
-    "notfound": { "title": "404 — BitZealth", "desc": "Page introuvable." }
+    "home": { "title": "BitZealth — Agence de développement web et mobile à Islamabad", "desc": "BitZealth développe des applications web, mobiles, des outils IA et des automatisations pour startups et entreprises. Agence logicielle basée à Islamabad, Pakistan, avec des clients dans 15+ pays." },
+    "services": { "title": "Développement Web, Mobile & IA — BitZealth", "desc": "Développement d'applications web sur mesure, apps mobiles React Native, intégration IA et automatisation de workflows. Agence logicielle au Pakistan." },
+    "work": { "title": "Portfolio — Projets Web, Mobile & IA — BitZealth", "desc": "Découvrez nos réalisations : apps web, mobiles, outils IA et automatisations livrés pour des clients du monde entier depuis Islamabad." },
+    "products": { "title": "Produits logiciels — BitZealth", "desc": "Découvrez les produits développés par BitZealth, dont BitZealth POS — un système de caisse léger pour les petits commerces." },
+    "team": { "title": "L'équipe — BitZealth Agence Logicielle", "desc": "Les développeurs et ingénieurs de BitZealth. Basés à Islamabad, Pakistan. Apps web, mobiles et IA pour clients internationaux." },
+    "contact": { "title": "Contact BitZealth — Démarrez votre projet", "desc": "Contactez BitZealth pour discuter de votre projet web, mobile ou IA. Appel découverte gratuit. Aucune connaissance technique requise." },
+    "notfound": { "title": "404 — Page introuvable — BitZealth", "desc": "Cette page n'existe pas. Retournez à l'accueil BitZealth." }
   }
 }
