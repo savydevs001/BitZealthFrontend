@@ -26,13 +26,13 @@
     "globe": "Website"
   },
   "hero": {
-    "title": "Architecting Digital Excellence for Visionary Founders",
-    "subtitle": "We transform ambitious ideas into world-class software. From initial concept to market dominance, we navigate the technical complexity so you can focus on your vision.",
-    "cta_primary": "Launch Your Vision",
+    "title": "From idea to launched product — we handle all the engineering.",
+    "subtitle": "We build web apps, mobile apps, AI tools, and automation — end to end — for founders and companies worldwide.",
+    "cta_primary": "Start Your Project",
     "cta_secondary": "Explore Our Work",
-    "headline": "Architecting Digital Excellence for Visionary Founders",
-    "trust": "Enterprise-grade delivery without the overhead.",
-    "sub": "We transform ambitious ideas into world-class software. From initial concept to market dominance, we navigate the technical complexity so you can focus on your vision."
+    "headline": "From idea to launched product — we handle all the engineering.",
+    "trust": "Web and mobile apps built in Islamabad, trusted by clients in 15+ countries.",
+    "sub": "We build web apps, mobile apps, AI tools, and automation — end to end — for founders and companies worldwide."
   },
   "solution_strip": {
     "headline": "You have the vision. We handle the complexity.",
@@ -90,9 +90,9 @@
     "columns": { "phase": "Phase", "what": "Our Action", "client": "Your Involvement" }
   },
   "services": {
-    "page_title": "Our Domains of Excellence",
-    "page_sub": "Uncompromising Engineering for Modern Ambitions",
-    "bottom_cta": "Not sure which solution satisfies your vision? Let's conduct a discovery session.",
+    "page_title": "What We Build",
+    "page_sub": "Web apps, mobile apps, AI tools, and automation — built end to end by our team in Islamabad.",
+    "bottom_cta": "Not sure which service fits your project? Describe your idea and we'll recommend the right approach.",
     "lifecycle_anchor": "process",
     "items": {
       "web": {
@@ -206,19 +206,19 @@
     "opener": "No technical background required. We speak your language.",
     "aside_email": "Consultation Inquiry",
     "aside_location": "Global Presence",
-    "title": "Initiate Connection",
-    "name": "Full Name",
-    "email": "Professional Email",
-    "project_type": "Domain of Interest",
-    "budget": "Investment Range (Optional)",
-    "message": "Describe your ambitious vision",
-    "submit": "Submit Vision",
-    "submitting": "Processing Request...",
-    "success": "Initial connection established. Our team will contact you within 24 hours.",
-    "error": "Submission failed. Please try again or contact us directly via email.",
-    "book": "Schedule Call",
-    "upwork": "Partner via Upwork",
-    "fiverr": "Partner via Fiverr",
+    "title": "Get in touch",
+    "name": "Your name",
+    "email": "Your email",
+    "project_type": "Project type",
+    "budget": "Budget (optional)",
+    "message": "Tell us about your project",
+    "submit": "Send message",
+    "submitting": "Sending...",
+    "success": "Message sent! Our team will get back to you within 24 hours.",
+    "error": "Something went wrong. Please try again or email us directly.",
+    "book": "Schedule a call",
+    "upwork": "Work with us on Upwork",
+    "fiverr": "Work with us on Fiverr",
     "project_types": {
       "web": "Web Application",
       "mobile": "Mobile Application",
@@ -269,12 +269,12 @@
     "home": "Return to HQ"
   },
   "seo": {
-    "home": { "title": "BitZealth — Premier Software Architecture & AI Engineering", "desc": "Transforming visionary ideas into elite digital products. We provide end-to-end software delivery for non-technical founders and ambitious enterprises." },
-    "services": { "title": "Strategic Solutions & Technical Expertise — BitZealth", "desc": "Explore our suites of elite engineering services, from product architecture to mission-critical AI systems." },
-    "work": { "title": "Portfolio of Technical Innovation — BitZealth", "desc": "Discover how we've empowered founders with precision-engineered web, mobile, and AI solutions." },
-    "products": { "title": "Internal Products & Innovation Roadmap — BitZealth", "desc": "Explore our proprietary technical solutions and upcoming software products." },
-    "team": { "title": "The Engineering Core — Meet Our Architects", "desc": "Meet the visionary engineers behind BitZealth. Focused on craft, velocity, and total accountability." },
-    "contact": { "title": "Initiate Your Technical Transformation — BitZealth", "desc": "Contact our consultants today to architect your next digital success. No technical background required." },
-    "notfound": { "title": "404 — Path Not Found — BitZealth", "desc": "This page does not exist. Return to our homepage to explore more." }
+    "home": { "title": "BitZealth — Software Development Agency in Islamabad, Pakistan", "desc": "BitZealth builds web apps, mobile apps, AI tools, and automation for startups and enterprises. MVP development company based in Islamabad, trusted by clients in 15+ countries." },
+    "services": { "title": "Web & Mobile App Development Services — BitZealth", "desc": "Custom web application development, React Native app development, AI system integration, and workflow automation. Software development agency in Pakistan." },
+    "work": { "title": "Our Portfolio — Web, Mobile & AI Projects — BitZealth", "desc": "Browse our project portfolio: web apps, mobile apps, AI tools, and automation built for clients worldwide by our team in Islamabad, Pakistan." },
+    "products": { "title": "Software Products — BitZealth", "desc": "Explore proprietary software products built by BitZealth, including BitZealth POS — a lightweight point-of-sale system built for small retailers." },
+    "team": { "title": "Meet the Team — BitZealth Software Agency", "desc": "The engineers and developers behind BitZealth. Based in Islamabad, Pakistan. Building web apps, mobile apps, and AI tools for clients worldwide." },
+    "contact": { "title": "Contact BitZealth — Start Your Software Project", "desc": "Get in touch with BitZealth to discuss your web app, mobile app, or AI project. Free discovery call. No technical background required." },
+    "notfound": { "title": "404 — Page Not Found — BitZealth", "desc": "This page does not exist. Return to the BitZealth homepage." }
   }
 }

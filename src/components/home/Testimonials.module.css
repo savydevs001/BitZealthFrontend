@@ -1,47 +1,67 @@
+.trustHeader {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 .h2 {
-  margin: 0 0 1.25rem;
+  margin: 0 0 0.5rem;
 }
 
-.grid {
-  display: grid;
-  gap: 1rem;
-}
-
-@media (min-width: 900px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.card {
+.trustSub {
   margin: 0;
-  border: 1px solid var(--color-border);
-  background: rgba(17, 17, 24, 0.55);
-  border-radius: 16px;
-  padding: 1.1rem;
-}
-
-.quote {
-  margin: 0;
-  color: rgba(241, 241, 243, 0.88);
+  color: rgba(241, 241, 243, 0.6);
   font-size: 1rem;
-  line-height: 1.65;
 }
 
-.meta {
-  margin-top: 1rem;
+.flagStrip {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem;
+  gap: 0.75rem 1.25rem;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
-.name {
-  font-weight: 800;
-  color: #fff;
+.flagItem {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: rgba(17, 17, 24, 0.55);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 0.5rem 0.9rem;
+  transition: border-color 0.2s;
+}
+
+.flagItem:hover {
+  border-color: rgba(139, 92, 246, 0.45);
 }
 
 .flag {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   line-height: 1;
+}
+
+.regionLabel {
+  font-size: 0.875rem;
+  color: rgba(241, 241, 243, 0.78);
+  font-weight: 500;
+}
+
+.platformRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.platformBadge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.9rem;
+  border-radius: 99px;
+  background: rgba(139, 92, 246, 0.12);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  color: #C084FC;
 }

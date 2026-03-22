@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { brand } from '../../config/brand.js'
-import { getOrganizationSchema } from './JsonLd.jsx'
+import { getOrganizationSchema, getWebSiteSchema, getProfessionalServiceSchema } from './JsonLd.jsx'
 
 /**
  * Manual SEO manager that doesn't rely on buggy libraries.
- * Handles Title, Meta Tags, and JSON-LD.
+ * Handles Title, Meta Tags, JSON-LD (@graph), and hreflang.
  */
 export function SEOHead({ title, desc, titleKey, descKey, author, schema }) {
   const { t } = useTranslation()
@@ -25,14 +25,16 @@ export function SEOHead({ title, desc, titleKey, descKey, author, schema }) {
     }
     metaDesc.content = displayDesc
 
-    // 3. Update OG Tags
+    // 3. Update OG / Twitter tags
     const ogValues = {
       'og:site_name': brand.nameFull,
       'og:title': displayTitle,
       'og:description': displayDesc,
       'og:url': window.location.href,
       'og:type': 'website',
-      'og:image': `https://${brand.domain}${brand.ogImage}`
+      'og:image': `https://${brand.domain}${brand.ogImage}`,
+      'og:image:width': '1200',
+      'og:image:height': '630',
     }
 
     const twitterValues = {
@@ -59,7 +61,26 @@ export function SEOHead({ title, desc, titleKey, descKey, author, schema }) {
       el.content = val
     })
 
-    // 4. Update JSON-LD
+    // 4. Hreflang tags (EN / AR / FR / x-default)
+    const LANGS = ['en', 'ar', 'fr']
+    const existingHreflang = document.querySelectorAll('link[rel="alternate"][hreflang]')
+    existingHreflang.forEach(el => el.remove())
+
+    const canonicalBase = `https://${brand.domain}`
+    const path = window.location.pathname
+
+    ;[...LANGS, 'x-default'].forEach(lang => {
+      const link = document.createElement('link')
+      link.rel = 'alternate'
+      link.hreflang = lang
+      // For x-default, point to the EN version (no lang param)
+      link.href = lang === 'x-default' || lang === 'en'
+        ? `${canonicalBase}${path}`
+        : `${canonicalBase}${path}?lng=${lang}`
+      document.head.appendChild(link)
+    })
+
+    // 5. JSON-LD — @graph on home page, single schema otherwise
     let script = document.getElementById('bz-jsonld')
     if (!script) {
       script = document.createElement('script')
@@ -68,13 +89,17 @@ export function SEOHead({ title, desc, titleKey, descKey, author, schema }) {
       document.head.appendChild(script)
     }
     
-    const finalSchema = schema || getOrganizationSchema(brand)
+    const finalSchema = schema || {
+      '@context': 'https://schema.org',
+      '@graph': [
+        getOrganizationSchema(brand),
+        getWebSiteSchema(brand),
+        getProfessionalServiceSchema(brand),
+      ]
+    }
     script.innerHTML = JSON.stringify(finalSchema)
 
-    // 5. Cleanup (optional, but keep for single page stability)
-    return () => {
-      // We don't necessarily want to remove meta tags on unmount to avoid flicker
-    }
+    return () => {}
   }, [displayTitle, displayDesc, schema])
 
   return null

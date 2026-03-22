@@ -5,7 +5,7 @@ export const brand = {
   domain: 'bitzealth.com',
   title: 'BitZealth — Complete Software Agency',
   description: 'BitZealth — complete software agency. You have the idea. We handle everything else. Web, mobile, AI, automation from Islamabad, Pakistan.',
-  ogImage: '/assets/logo.svg',
+  ogImage: '/assets/og-image.png',
   twitterHandle: '@bitzealth',
   logo: {
     src: '/assets/logo.svg',
@@ -25,9 +25,9 @@ export const brand = {
   },
   contact: {
     email: 'hello@bitzealth.com',
-    whatsapp: '',
+    whatsapp: 'https://wa.me/923000000000', // TODO: replace with real WhatsApp number
     location: 'Islamabad, Pakistan',
-    calendly: '',
+    calendly: 'https://calendly.com/bitzealth', // TODO: replace with real Calendly link
   },
   socials: {
     linkedin: 'https://linkedin.com/company/bitzealth',
